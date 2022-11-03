@@ -39,8 +39,9 @@
     
 }
 
-@media (min-width:481px) and (max-width: 768px) {
+@media  (max-width: 768px) {
     .project-list-container {
+        width: 100%;
         h3 {
             font-size: 1.3rem;
         }

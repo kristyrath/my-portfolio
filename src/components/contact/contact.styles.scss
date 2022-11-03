@@ -1,6 +1,8 @@
 .contacts-container {
     text-align: center;
-    padding: 15rem;
+    padding: 15rem 0;
+    margin: 0 auto;
+    width: 100%;
 
     .contact-container-wrapper{
         padding: 10rem 0;
@@ -51,14 +53,20 @@
     }
 }
 
-@media (min-width:481px) and (max-width: 768px) {
+@media (max-width: 768px) {
     .contacts-container {
-        padding: 3rem 2rem;
+        padding: 3rem 0;
         .contact-container-wrapper{
+            flex-direction: column;
+            gap: 2rem;
+            align-items: left;
+            justify-content: center;
             padding: 1rem 0;
             a {
                 .contact-container {
-                    max-width: 8rem;
+                    height: 5rem;
+                    padding: 0 0 0 3rem;
+                    flex-direction: row;
                     img {
                         height: 4rem;
                         width: 4rem;
@@ -75,7 +83,7 @@
                         width: 4.4rem;
                     }
                     .contact {
-                        font-size: 0.9rem;
+                        font-size: 1rem;
                     }
                 }
     
