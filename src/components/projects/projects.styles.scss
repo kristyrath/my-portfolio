@@ -18,7 +18,7 @@
     }
 
     .project-container {
-        height: 100vh;
+        min-height: 100vh;
         background-size: cover;
         background-repeat: no-repeat;
         padding: 5rem 0;
@@ -30,21 +30,14 @@
             
             margin: auto;
             img { 
-                height:45rem;
+                max-height:45rem;
+                @media (min-width:481px) and (max-width: 768px) 
+                {
+                    width: 100%;
+                }
             }
      
         }
-        // @media screen {
-        //     @media (max-width: 460px) {
-        //         .project-img-container {
-        //             height: 20rem;
-        //             // img { 
-        //             //     height:50%;
-        //             // }
-            
-        //         }
-        //     }
-        // }
 
         .project-text-container {
             max-width: 28rem;
@@ -70,5 +63,21 @@
         .accent {
             color: #26BFC6;
         }
+    }
+}
+
+
+@media (min-width:481px) and (max-width: 768px) {
+    .projects-container {
+        .project-container {
+            .project-text-container {
+                h2 {
+                    font-size: 3rem;
+                }
+    
+            }
+        }
+
+  
     }
 }

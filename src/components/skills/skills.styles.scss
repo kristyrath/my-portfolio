@@ -3,15 +3,31 @@
 .skills-container {
     padding: 15rem;
     text-align: center;
+
+    
+ 
     .skills-lang-icons-img {
         width: 80%;
+        
     }
+    
     .accent {
         color: #26BFC6;
     }
     h2 {
         font-size: 4rem;
         font-weight: 900;
-
+ 
     }
 }
+
+@media (min-width:481px) and (max-width: 768px) {
+    .skills-container {
+        padding: 5rem 1rem;
+        .skills-lang-icons-img {
+            width: 100%;
+            
+        }
+    }
+
+} 

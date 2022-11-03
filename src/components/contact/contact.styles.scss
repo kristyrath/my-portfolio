@@ -50,3 +50,38 @@
         color: #26BFC6;
     }
 }
+
+@media (min-width:481px) and (max-width: 768px) {
+    .contacts-container {
+        padding: 3rem 2rem;
+        .contact-container-wrapper{
+            padding: 1rem 0;
+            a {
+                .contact-container {
+                    max-width: 8rem;
+                    img {
+                        height: 4rem;
+                        width: 4rem;
+                    }
+                    .contact {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+            a:hover {
+                .contact-container {
+                    img {
+                        height: 4.4rem;
+                        width: 4.4rem;
+                    }
+                    .contact {
+                        font-size: 0.9rem;
+                    }
+                }
+    
+            }
+
+        }       
+    }
+
+} 
