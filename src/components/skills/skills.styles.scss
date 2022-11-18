@@ -19,7 +19,11 @@
         font-weight: 900;
     }
 }
-
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) { 
+    .skills-container {
+        padding: 0 0 5rem 0;
+    }
+}
 @media (max-width: 768px) {
     .skills-container {
         padding: 5rem 0;      

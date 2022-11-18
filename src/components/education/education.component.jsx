@@ -3,9 +3,7 @@ import EducationIcon from '../../assets/education-icon.png';
 import bgImageFlipped from '../../assets/bg-img-flipped.png';
 const Education = () => {
     return (
-        <div id='education' className='education-container'  style={{
-            backgroundImage: `url(${bgImageFlipped})`
-        }}>
+        <div id='education' className='education-container'>
             <img src={EducationIcon}/>
             <h2>My <span className='accent'>Education</span></h2>
             <div className='main-education-section'>
@@ -46,3 +44,10 @@ const Education = () => {
 }
 
 export default Education;
+
+
+/*
+        <div id='education' className='education-container'  style={{
+            backgroundImage: `url(${bgImageFlipped})`
+        }}>
+*/

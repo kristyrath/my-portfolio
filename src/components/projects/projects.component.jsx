@@ -51,9 +51,8 @@ export const Projects = () => {
             Projects.map((project) => {
                 const {id, projectName, bg, link, buttonText, description, projectIcons, classes, projectImg} = project;
                 return (
-                    <div key={id} id={id} className='project-container' style={{
-            backgroundImage: `url(${bg})`
-        }}>
+                    <div key={id} id={id} className='project-container'>
+            
                         <div className='project-img-container'>
                             <img src={projectImg}/>
                         </div>
@@ -78,3 +77,9 @@ export const Projects = () => {
 }
 
 export default Projects;
+
+
+
+//   <div key={id} id={id} className='project-container' style={{
+            // backgroundImage: `url(${bg})`
+        

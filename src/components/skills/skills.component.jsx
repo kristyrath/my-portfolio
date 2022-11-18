@@ -3,9 +3,7 @@ import SkillLangIcons from '../../assets/skills-lang-icons.png';
 import bgImage from '../../assets/bg-img.png';
 const Skills = () => {
     return (
-        <div id='skills' className='skills-container'  style={{
-            backgroundImage: `url(${bgImage})`
-        }}>
+        <div id='skills' className='skills-container'>
             <h2>My <span className='accent'>Skills</span></h2>
             <img className='skills-lang-icons-img' src ={SkillLangIcons}/>
 
@@ -14,3 +12,11 @@ const Skills = () => {
 }
 
 export default Skills;
+
+
+/*
+   <div id='skills' className='skills-container'  style={{
+            backgroundImage: `url(${bgImage})`
+        }}>
+
+*/ 

@@ -1,5 +1,6 @@
 .project-list-container {
     text-align: center;
+    background-color: #2a2c6c;
     h2 {
         font-size: 2.5rem;
         font-weight: 900;
@@ -38,7 +39,26 @@
     
     
 }
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) { 
+    .project-list-container {
 
+        .project-list-items-container {
+            min-height: 10rem;
+
+            a {
+                img {
+                    height: 6rem;
+                }
+            }
+            a:hover {
+                img {
+                    height: 6.5rem;
+                }
+            }
+        }
+    }
+    
+}
 @media  (max-width: 768px) {
     .project-list-container {
         width: 100%;

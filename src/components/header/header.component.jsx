@@ -4,9 +4,7 @@ import bgImage from '../../assets/bg-img.png';
 import ProjectList from '../project-list/project-list.component';
 const Header = () => {
     return (
-        <div id='home' className='header-container' style={{
-            backgroundImage: `url(${bgImage})`
-        }}>
+        <div id='home' className='header-container'>
             <div className='header-section-wrapper-container'>
 
                 <div className='header-text-container'>
@@ -32,3 +30,8 @@ const Header = () => {
 }
 
 export default Header;
+
+
+/*<div id='home' className='header-container' style={{
+    backgroundImage: `url(${bgImage})`
+}}>*/

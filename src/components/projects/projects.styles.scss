@@ -7,10 +7,11 @@
                 height: 5rem;
                 width: 4rem;
             }
+            
         }
     }
     #e-commerce-website-project {
-        text-align: left;
+        // text-align: left;
         flex-direction: row-reverse;
         .project-text-container {
             text-align: left;
@@ -19,10 +20,9 @@
     }
 
     .project-container {
-        min-height: 100vh;
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 5rem 0;
+        // background-size: cover;
+        // background-repeat: no-repeat;
+        background-color: #2a2c6c;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -53,6 +53,7 @@
             h2 {
                 font-size: 4rem;
                 font-weight: 900;
+                
             }
         }
  
@@ -62,7 +63,72 @@
         }
     }
 }
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) { 
+    .projects-container {
+        #ui-mockup-project {
+            text-align: right;
+            .project-icons-container {
+                img {
+                    padding: 0;
+                    height: 3rem;
+                    width: 2rem;
+                }
+          
+            }
+            .project-text-container {
+                h2 {
+                    position: relative;
+                    left: 8rem;
+                }
+            }
+        }
+        #movie-tracker-project {
+            .project-text-container {
+                h2 {
+                    position: relative;
+                    left: 6rem;
+                }
+            }
+        }
+        .project-container {
+            justify-content: center;
+            padding: 2rem 2rem;
+            flex-wrap: nowrap;
+            align-items: center;
+            .project-img-container {
+                img { 
+                    max-height:25rem;
+                }
+            }
+            .project-text-container {
+                max-width: 23rem;
+                text-align: right;
+                font-size: 1rem;
+                margin: 0 auto;
 
+                .project-icons-container {
+                    img { 
+                        width: 50%;
+             
+                    }        
+                }
+                .project-description-container {
+                    line-height: 2rem;
+    
+                }
+                h2 {
+                    font-size: 2rem;
+                    max-width: 15rem;
+                    font-weight: 900;        
+                }
+            }
+            
+     
+        }
+
+    }
+
+}
 
 @media (max-width: 768px) {
     .projects-container {

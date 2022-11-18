@@ -5,9 +5,7 @@ import GithubIcon from '../../assets/github-icon.png';
 import bgImage from '../../assets/bg-img.png';
 const Contact = () => {
     return (
-        <div id='contact' className='contacts-container' style={{
-            backgroundImage: `url(${bgImage})`
-        }}>
+        <div id='contact' className='contacts-container'>
             <h2>My <span className='accent'>Contacts</span></h2>
             <div className='contact-container-wrapper'>
                 <a href='mailto: kristyyrath@gmail.com'>
